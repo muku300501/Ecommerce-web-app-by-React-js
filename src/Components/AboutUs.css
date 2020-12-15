@@ -1,0 +1,121 @@
+.aboutUs__box {
+  margin: 50px;
+  padding: 25px;
+  border: 2px solid rgb(137, 155, 137);
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUs__image {
+  object-fit: contain;
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+.aboutUs__para {
+  margin-top: 25px;
+  width: 275px;
+}
+
+.aboutUs__button {
+  background-color: #14eb26 !important;
+  border-radius: 5px !important;
+  padding: 10px 30px !important;
+  border: 1px solid !important;
+  margin-top: 25px !important;
+}
+
+@media screen and (max-width: 1045px) {
+  .aboutUs__box {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutUs__h1 {
+    font-weight: 600;
+  }
+
+  .aboutUs__image {
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    margin-left: -25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutUs__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutUs__para {
+    font-size: 0.8rem;
+  }
+
+  .aboutUs__h1 {
+    font-weight: 500;
+  }
+
+  .aboutUs__image {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin-left: -25px;
+    margin-top: 20px;
+  }
+
+  .aboutUs__button {
+    margin-left: 55px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .aboutUs__box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutUs__para {
+    font-size: 0.9rem;
+  }
+
+  .aboutUs__h1 {
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .aboutUs__box {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutUs__para {
+    margin-left: 25px;
+    font-size: 0.7rem;
+    width: 150px;
+  }
+
+  .aboutUs__h1 {
+    font-weight: 500;
+  }
+
+  .aboutUs__button {
+    margin-right: 55px !important;
+  }
+}

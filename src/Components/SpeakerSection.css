@@ -1,0 +1,31 @@
+.speakerSection__banner {
+  display: flex;
+}
+
+@media screen and (max-width: 1350px) {
+  .speakerSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .speakerSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .speakerSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .speakerSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}

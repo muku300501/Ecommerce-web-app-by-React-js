@@ -1,0 +1,31 @@
+.headsetsSection__banner {
+  display: flex;
+}
+
+@media screen and (max-width: 1350px) {
+  .headsetsSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .headsetsSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .headsetsSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .headsetsSection__banner {
+    display: flex;
+    flex-direction: column;
+  }
+}

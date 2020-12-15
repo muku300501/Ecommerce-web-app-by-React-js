@@ -1,0 +1,15 @@
+.services {
+  margin: 50px;
+  border: 2px solid rgb(137, 155, 137);
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.services__li {
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.services__li:nth-child(4) {
+  margin-bottom: 10px;
+}
